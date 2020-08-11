@@ -1,0 +1,24 @@
+#video-grid
+{
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+}
+.main_left{
+    flex:0.8;
+
+}
+.main_right{
+    flex:0.2;
+    
+}
